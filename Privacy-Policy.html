@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Privacy Policy for Ludo Furry Double Dice by Tiny Tricky Logics.">
   <meta name="robots" content="index, follow">
@@ -146,14 +144,15 @@
     <strong>Your privacy matters.</strong>
     This Privacy Policy explains how Tiny Tricky Logics handles information in
     <strong>Ludo Furry Double Dice</strong> (formerly known as <strong>Ludo Double Dice</strong>).
-    It is written to provide clear information about data handling, advertising,
-    purchases, security, retention, children's privacy, and your choices.
+    It covers data handling, permissions (Camera, Microphone, Notifications), advertising (Google AdMob), in-app purchases (Google Play Billing), multiplayer profile data, security, retention, children's privacy, and user choices.
     <div class="toc">
       <a href="#collection">Data We Collect</a>
+      <a href="#permissions">Permissions</a>
       <a href="#use">How We Use Data</a>
       <a href="#thirdparty">Third Parties</a>
       <a href="#ads">Advertising</a>
       <a href="#purchases">Purchases</a>
+      <a href="#notifications">Notifications</a>
       <a href="#children">Children</a>
       <a href="#rights">Your Choices</a>
       <a href="#play">Google Play Guidance</a>
@@ -165,149 +164,102 @@
 
     <section class="card full" id="collection">
       <div class="icon-title"><div class="icon">🔐</div><h2>1. Information We May Collect</h2></div>
-      <p>Depending on the features enabled in a particular version of the game, we may process information such as:</p>
+      <p>Depending on the features enabled in the game, we may process information such as:</p>
       <ul>
-        <li><strong>Device and technical information:</strong> device model, operating system/version, language, app version, approximate diagnostic information, IP address, and other technical identifiers that may be made available by the device or integrated services.</li>
-        <li><strong>Game and usage information:</strong> gameplay events, settings, progress, session information, performance information, crash information, and interactions with game features.</li>
-        <li><strong>Account or authentication information:</strong> if an optional sign-in or third-party authentication feature is offered and you choose to use it, the relevant service may provide information such as an account identifier, nickname, profile information, or other information you authorize.</li>
-        <li><strong>Purchase information:</strong> when you make an in-app purchase, the transaction is processed by Google Play. We may receive limited non-financial information needed to provide or restore the purchased digital content, such as purchase status, product identifier, and transaction-related information.</li>
-        <li><strong>Information you send to us:</strong> information included in a support request, feedback, or other communication you voluntarily send to us.</li>
+        <li><strong>Profile &amp; Multiplayer Information:</strong> User profile picture and display name provided by you or captured via device camera/gallery to be used in multiplayer gameplay matches.</li>
+        <li><strong>Device and technical information:</strong> device model, operating system/version, language, app version, approximate diagnostic information, IP address, and other technical identifiers.</li>
+        <li><strong>Game and usage information:</strong> gameplay events, settings, progress, session information, performance information, crash information, and multiplayer interactions.</li>
+        <li><strong>Purchase information:</strong> when you make in-app purchases (such as coins and gems), transactions are processed securely by Google Play Billing. We receive non-financial transaction details like product identifiers and purchase status.</li>
+        <li><strong>Push Notifications Tokens:</strong> Firebase Cloud Messaging (FCM) tokens to deliver game-related notifications and updates.</li>
+        <li><strong>Information you send to us:</strong> support requests, feedback, or direct communications.</li>
       </ul>
-      <div class="warn"><strong>Important:</strong> The exact data collected depends on the features, SDKs, permissions, and services actually enabled in the published version of the game. Our Google Play Data safety disclosure should always be kept consistent with the live app.</div>
+      <div class="warn"><strong>Important:</strong> Data collection strictly corresponds to active features, SDKs, and permissions implemented in the live application[cite: 1].</div>
+    </section>
+
+    <section class="card full" id="permissions">
+      <div class="icon-title"><div class="icon">📱</div><h2>2. Device Permissions Usage</h2></div>
+      <p>Our app requests specific device permissions to deliver core multiplayer and interactive features:</p>
+      <ul>
+        <li><strong>Camera Permission:</strong> Used solely when you choose to capture or update your custom multiplayer profile picture from within the game. Images are processed locally and for multiplayer profile display.</li>
+        <li><strong>Microphone Permission:</strong> Used for in-game voice chat features during live multiplayer matches to communicate with other players. Audio is transmitted in real-time during matches and is not permanently recorded or stored by us.</li>
+        <li><strong>Notification Permission (FCM):</strong> Used via Google Firebase Cloud Messaging to send you alerts regarding game turns, rewards, events, and important updates.</li>
+      </ul>
+      <div class="check"><strong>User Control:</strong> You can grant or revoke camera, microphone, and notification permissions at any time through your Android device settings.</div>
     </section>
 
     <section class="card" id="use">
-      <div class="icon-title"><div class="icon">⚙️</div><h2>2. How We Use Information</h2></div>
-      <p>We may use information to:</p>
+      <div class="icon-title"><div class="icon">⚙️</div><h2>3. How We Use Information</h2></div>
+      <p>We use the collected information to:</p>
       <ul>
-        <li>provide and operate the game and its features;</li>
-        <li>save or restore game progress and purchases where supported;</li>
-        <li>understand crashes, errors, and technical problems;</li>
-        <li>measure performance and improve gameplay and user experience;</li>
-        <li>maintain security, prevent abuse, fraud, or misuse;</li>
-        <li>provide customer support and respond to requests;</li>
-        <li>deliver game-related notifications when such notifications are enabled;</li>
-        <li>comply with applicable laws and Google Play requirements.</li>
+        <li>provide and operate multiplayer matches, displaying user profile pictures and names to other players;</li>
+        <li>manage voice chat and camera features during gameplay;</li>
+        <li>process in-app purchases for virtual items like coins and gems;</li>
+        <li>deliver push notifications via Firebase Cloud Messaging (FCM);</li>
+        <li>save and synchronize game progress, settings, and stats;</li>
+        <li>detect crashes, fix bugs, and optimize performance;</li>
+        <li>ensure game security, prevent cheating, fraud, and abuse;</li>
+        <li>comply with legal obligations and Google Play requirements.</li>
       </ul>
     </section>
 
     <section class="card" id="security">
-      <div class="icon-title"><div class="icon">🛡️</div><h2>3. Security</h2></div>
-      <p>We take reasonable measures designed to protect information against unauthorized access, alteration, disclosure, or destruction.</p>
-      <p>No method of electronic transmission or storage is completely secure. Therefore, we cannot guarantee absolute security of information transmitted over the internet.</p>
+      <div class="icon-title"><div class="icon">🛡️</div><h2>4. Security</h2></div>
+      <p>We implement robust technical and organizational security measures to protect user data against unauthorized access, alteration, disclosure, or destruction.</p>
     </section>
 
     <section class="card full" id="thirdparty">
-      <div class="icon-title"><div class="icon">🔗</div><h2>4. Third-Party Services</h2></div>
-      <p>The game may use third-party services that help us operate, analyze, advertise, authenticate, or process purchases. These providers may process information according to their own terms and privacy policies.</p>
-      <p>Examples may include services provided by Google Play and other service providers integrated into the game. Where a third-party service processes information, its own privacy policy may also apply.</p>
-      <p>We do not control the privacy practices of third-party services. Users should review the privacy notices of those services when applicable.</p>
+      <div class="icon-title"><div class="icon">🔗</div><h2>5. Third-Party Services</h2></div>
+      <p>We integrate trusted third-party services that assist in operating our game, such as Google Play Services, Google AdMob, and Firebase. These providers process data in accordance with their respective privacy policies.</p>
     </section>
 
     <section class="card" id="ads">
-      <div class="icon-title"><div class="icon">📢</div><h2>5. Advertising</h2></div>
-      <p>The game may display advertising if advertising is enabled in the published version. Advertising partners may process device, app, and advertising-related information to provide, measure, limit, or personalize advertising, subject to applicable settings, consent requirements, and platform policies.</p>
-      <p>Where required, appropriate consent and privacy choices will be presented to users. Advertising practices may change as the game or advertising services are updated.</p>
-      <div class="check"><strong>Children and advertising:</strong> If the app is offered to children or includes children in its target audience, advertising and data practices must comply with Google Play Families requirements and applicable child-privacy laws. Personalized advertising is not permitted for child users under the applicable Families rules.</div>
+      <div class="icon-title"><div class="icon">📢</div><h2>6. Advertising (Google AdMob)</h2></div>
+      <p>The game utilizes Google Mobile Ads (AdMob) to display advertisements. AdMob may collect and use device identifiers, advertising ID, and network information to serve ads. If child-directed settings or Families policies apply, ad delivery complies with Google Play requirements regarding non-personalized ads.</p>
     </section>
 
     <section class="card" id="purchases">
-      <div class="icon-title"><div class="icon">💳</div><h2>6. In-App Purchases</h2></div>
-      <p>Ludo Furry Double Dice may offer optional digital purchases. Purchases of digital goods distributed through Google Play are processed through Google Play's billing system.</p>
-      <p>We do not receive or store your full payment card number through the game. Google Play handles payment processing and may provide us with transaction-related information necessary to confirm and manage the purchase.</p>
-      <p>Refunds, payment methods, and certain transaction controls are governed by Google Play's applicable policies and procedures.</p>
+      <div class="icon-title"><div class="icon">💳</div><h2>7. In-App Purchases (Coins &amp; Gems)</h2></div>
+      <p>Virtual items such as coins and gems can be purchased via Google Play Billing. We do not store financial or payment card details; all transactions are securely handled by Google Play.</p>
     </section>
 
     <section class="card" id="notifications">
-      <div class="icon-title"><div class="icon">🔔</div><h2>7. Notifications</h2></div>
-      <p>If the game uses push or local notifications, they may be used for gameplay-related information, service updates, reminders, or other permitted communications.</p>
-      <p>You can normally control notification permissions through your Android device settings.</p>
-    </section>
-
-    <section class="card" id="cookies">
-      <div class="icon-title"><div class="icon">🍪</div><h2>8. Cookies & Similar Technologies</h2></div>
-      <p>The game itself may not use traditional browser cookies. However, third-party SDKs or services used by the app may use technologies such as local storage, device identifiers, or similar technologies for functionality, analytics, security, or advertising.</p>
-      <p>Such processing is governed by the applicable service provider's policies and, where required, user consent choices.</p>
+      <div class="icon-title"><div class="icon">🔔</div><h2>8. Push Notifications</h2></div>
+      <p>Using Google Firebase Cloud Messaging (FCM), we send push notifications for game events and alerts. You can disable notifications anytime via Android settings.</p>
     </section>
 
     <section class="card" id="retention">
-      <div class="icon-title"><div class="icon">🗂️</div><h2>9. Data Retention & Deletion</h2></div>
-      <p>We retain information only for as long as reasonably necessary for the purposes described in this policy, to provide the service, maintain security, resolve disputes, comply with legal obligations, or enforce applicable agreements.</p>
-      <p>Where applicable, you may request deletion of personal information that we control by contacting us. If the game provides user account creation, any account-deletion process required by Google Play will be provided and associated data will be handled according to applicable requirements.</p>
-      <p>Some information may need to be retained where required by law, for legitimate security purposes, or where necessary to resolve disputes or prevent fraud.</p>
+      <div class="icon-title"><div class="icon">🗂️</div><h2>9. Data Retention &amp; Deletion</h2></div>
+      <p>We retain data only as long as necessary to provide game services, fulfill legal obligations, or resolve disputes. Users can request account and data deletion by contacting us.</p>
     </section>
 
     <section class="card" id="children">
       <div class="icon-title"><div class="icon">👨‍👩‍👧</div><h2>10. Children's Privacy</h2></div>
-      <p>We do not knowingly request or intentionally collect personal information from children where such collection is not permitted by applicable law or Google Play policy.</p>
-      <p>If the app's target audience includes children, we will follow the applicable Google Play Families requirements, including requirements relating to advertising, SDKs, identifiers, disclosures, and child-directed data practices.</p>
-      <p>If you believe that a child has provided personal information in a manner that should not have occurred, please contact us. We will review the request and take reasonable steps as required by applicable law.</p>
+      <p>We comply fully with Google Play Families policies and child privacy laws. We do not knowingly collect personal data from children in violation of platform rules.</p>
     </section>
 
     <section class="card" id="rights">
-      <div class="icon-title"><div class="icon">✅</div><h2>11. Your Choices & Privacy Rights</h2></div>
-      <ul>
-        <li>You can control certain Android permissions through device settings.</li>
-        <li>You can control notifications through Android settings.</li>
-        <li>Where consent is required for advertising or similar processing, you may use the available consent and privacy controls.</li>
-        <li>You may contact us to ask about information we control and, where applicable, request correction or deletion.</li>
-        <li>If you use a third-party sign-in or service, you may also have privacy controls directly with that provider.</li>
-      </ul>
+      <div class="icon-title"><div class="icon">✅</div><h2>11. Your Choices &amp; Rights</h2></div>
+      <p>You have full control over device permissions (Camera, Microphone, Notifications) through your phone settings. You may also contact us regarding your data.</p>
     </section>
 
     <section class="card full" id="play">
-      <div class="icon-title"><div class="icon">⭐</div><h2>12. Google Play & User Privacy Guidance</h2></div>
-      <p>This policy is intended to support transparent privacy practices for distribution through Google Play. Developers must keep the policy, the app's actual behavior, and the Google Play Console disclosures accurate and consistent.</p>
-
-      <h3>Privacy policy and Data safety</h3>
-      <p>Google Play requires a comprehensive privacy policy to be available through the required Play Console field and from within the app. The policy should explain how the app accesses, collects, uses, shares, secures, retains, and deletes user data, and should provide developer contact information.</p>
-
-      <h3>Data Safety accuracy</h3>
-      <p>The Google Play Data safety section must accurately reflect the live app and its SDKs, including data collected or shared by third-party SDKs. If the app changes its SDKs, permissions, advertising, authentication, analytics, or data practices, the Data safety form and this policy should be reviewed and updated.</p>
-
-      <h3>Account deletion</h3>
-      <p>If the app allows users to create an account, Google Play requires an accessible way for users to request account deletion and associated data deletion, subject to permitted legal exceptions.</p>
-
-      <h3>Children and Families</h3>
-      <p>If children are included in the target audience, additional Google Play Families requirements apply. These can include restrictions on identifiers, advertising, SDKs, personalized ads, content, and monetization. Target-audience declarations in Play Console must be accurate.</p>
-
-      <h3>In-app purchases</h3>
-      <p>Digital goods and services sold through Google Play generally need to use Google Play's billing system unless a documented policy exception applies.</p>
-
-      <h3>Transparency and consent</h3>
-      <p>Where sensitive or unexpected data access requires a prominent disclosure and consent, the disclosure should be presented clearly and at an appropriate time. A privacy policy does not replace a required in-app prominent disclosure or consent flow.</p>
-
-      <div class="check">
-        <strong>Developer reminder:</strong> This privacy policy is not a substitute for completing Play Console's App content, Target audience, Content rating, Data safety, Data deletion, Ads, and other declarations accurately. Those declarations should match the actual published build and its integrated SDKs.
-      </div>
-    </section>
-
-    <section class="card" id="changes">
-      <div class="icon-title"><div class="icon">🔄</div><h2>13. Changes to This Policy</h2></div>
-      <p>We may update this Privacy Policy when the game, services, legal requirements, or data practices change. The latest version will be published at the privacy-policy URL associated with the game.</p>
-      <p>We encourage users to review this page periodically for important updates.</p>
+      <div class="icon-title"><div class="icon">⭐</div><h2>12. Google Play Compliance</h2></div>
+      <p>This policy is aligned with Google Play Console requirements, ensuring accurate disclosure for permissions, Data Safety forms, advertising, and in-app billing.</p>
     </section>
 
     <section class="card" id="contact">
-      <div class="icon-title"><div class="icon">✉️</div><h2>14. Contact Us</h2></div>
-      <p>If you have questions, privacy requests, or feedback regarding this Privacy Policy or Ludo Furry Double Dice, please contact:</p>
+      <div class="icon-title"><div class="icon">✉️</div><h2>13. Contact Us</h2></div>
+      <p>If you have any questions or privacy requests, please reach out to[cite: 1]:</p>
       <div class="email"><a href="mailto:iq.games.fun@gmail.com">iq.games.fun@gmail.com</a></div>
-      <p class="small">Developer / Publisher: <strong>Tiny Tricky Logics</strong><br>
-      App: <strong>Ludo Furry Double Dice</strong><br>
-      Previous app name: <strong>Ludo Double Dice</strong></p>
-    </section>
-
-    <section class="card full">
-      <p class="small"><strong>Effective / Last Updated:</strong> September 27, 2026</p>
-      <p class="small">This document is provided as a privacy-policy template tailored to the information supplied for this game. It should be kept synchronized with the actual app build, SDK configuration, permissions, advertising setup, authentication methods, and Google Play Console disclosures.</p>
+      <p class="small">Developer / Publisher: <strong>Tiny Tricky Logics</strong>[cite: 1]<br>
+      App: <strong>Ludo Furry Double Dice</strong>[cite: 1]</p>
     </section>
 
   </div>
 </main>
 
 <footer>
-  © 2026 Tiny Tricky Logics · Ludo Furry Double Dice
+  © 2026 Tiny Tricky Logics · Ludo Furry Double Dice[cite: 1]
 </footer>
 
-</body>
-</html>
+</body></html>
